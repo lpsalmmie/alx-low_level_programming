@@ -4,18 +4,21 @@
 /**
  * main - returns alphabets both except e and q
  *
- * Retun: Always 0
+ * Retun: Always 0 (Success)
  */
+
 int main(void)
 {
-	char ch = 'a';
+	char c;
 
-	while (ch <= 'z')
+	c = 'a';
+
+	while
+		(ch <= 'z')
 	{
-		if ((ch != 'e') && (ch != 'q'))
-		{
-			putchar(ch);
-		}
+		if ((ch != 'q' && c != 'e') && c <= 'z')
+			putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
