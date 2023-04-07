@@ -171,7 +171,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
  *
  * Return: void
  */
-void hash_table_print(const hash_table_t *ht)
+void shash_table_print(const shash_table_t *ht)
 {
 	shash_node_t *tmp;
 	char flag = 0; /* 0 before printing any data, 1 after*/
@@ -197,7 +197,7 @@ void hash_table_print(const hash_table_t *ht)
  *
  * Return: void
  */
-void hash_table_print_rev(const hash_table_t *ht)
+void shash_table_print_rev(const shash_table_t *ht)
 {
 	shash_node_t *tmp;
 	char flag = 0; /* 0 before printing any data, 1 after*/
